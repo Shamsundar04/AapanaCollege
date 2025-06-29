@@ -1,0 +1,49 @@
+section {
+  margin-top: 100px;
+}
+
+div {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+  background-color: #708a58;
+  margin: 10px auto;
+
+}
+
+div:nth-child(2n) {
+  background-color: #578fca;
+}
+
+div:nth-child(5) {
+  background-color: #ff7d29;
+}
+
+#one:hover{
+transform: rotate(180deg);
+}
+
+#two:hover{
+    /* x axis y axis */
+    /* transform: scale(0.5,2); */
+    /* transform: translate(100px, 50px) rotate(20deg); */
+    transform: scale(1.1);
+
+}
+
+#three{
+    transform: translate(-50px,-50px);
+    /* transform: translateX(50px); */
+    /* transform: translateY(10px); */
+}
+
+#four{
+    transform: skew(20deg, 10deg);
+}
+
+
+#five{
+
+    transform: rotate(45deg) translateX(50px) scale(1.5);
+}
